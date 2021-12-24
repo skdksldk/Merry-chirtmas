@@ -56,3 +56,16 @@
     html {
         scroll-behavior: smooth;
     }
+    /*========== CLASS CSS ==========*/
+    
+    .section {
+        padding: 4rem 0 2rem;
+    }
+    
+    .section-title,
+    .section-title-center {
+        font-size: var(--h2-font-size);
+        color: var(--title-color);
+        text-align: center;
+        margin-bottom: var(--mb-3);
+    }
