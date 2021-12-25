@@ -431,3 +431,13 @@
         color: var(--text-color-light);
         margin-top: 4rem;
     }
+    /*========== MEDIA QUERIES ==========*/
+    /* For full-screen images on small screens */
+    
+    @media screen and (max-width: 359px) {
+        .home__img,
+        .share__img,
+        .send__img {
+            width: 100%;
+        }
+    }
