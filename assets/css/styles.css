@@ -554,3 +554,52 @@
         --body-color: #251D1E;
         --container-color: #302728;
     }
+    /*========== Button Dark/Light ==========*/
+    
+    .change-theme {
+        position: absolute;
+        right: 1.5rem;
+        top: 2.2rem;
+        display: flex;
+        color: var(--title-color);
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    
+    body {
+        margin: var(--header-height) 0 0 0;
+        font-family: var(--body-font);
+        font-size: var(--normal-font-size);
+        background-color: var(--body-color);
+        color: var(--text-color);
+        line-height: 1.6;
+    }
+    
+    h1,
+    h2,
+    h3,
+    ul,
+    p {
+        margin: 0;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-weight: var(--font-semi-bold);
+        color: var(--title-color);
+    }
+    
+    ul {
+        padding: 0;
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    img {
+        max-width: 100%;
+        height: auto;
+    }
