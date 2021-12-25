@@ -441,3 +441,31 @@
             width: 100%;
         }
     }
+    
+    @media screen and (min-width: 576px) {
+        .home__container,
+        .share__container,
+        .send__container {
+            grid-template-columns: repeat(2, 1fr);
+            align-items: center;
+        }
+        .home__container {
+            padding: 5rem 0 0;
+        }
+        .home__img {
+            order: 1;
+        }
+        .section-title-center,
+        .share__data,
+        .send__description {
+            text-align: initial;
+        }
+        .home__img,
+        .share__img,
+        .send__img {
+            width: 100%;
+        }
+        .share__img {
+            order: -1;
+        }
+    }
